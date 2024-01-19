@@ -1,10 +1,10 @@
 # Programa para avaliar se um candidato pode ou não participar de um evento esportivo.
 
 
+# Função para coletar informações do usuário.
+
+
 def coletar_informacoes(mensagem, tipo_dado):
-    """
-    Função para coletar informações do usuário.
-    """
     while True:
         try:
             dado = tipo_dado(input(mensagem))
